@@ -46,13 +46,13 @@ This is false, because if the operator appears before the variable, the value is
 **m)** `++x == x++`
 This is true, because if the operator appears before the variable, the value is modified before the expression is evaluated. If the operator appears after the variable, the value is modified after the expression is evaluated
 
-**n)** `"1"+x == 1+x`
+**n)** `"1"+x == 1+x` This is false, because the 1 is represented by a string
 
-**o)** `"0"+1 == 1`
+**o)** `"0"+1 == 1` This is false, because the 0 is represented by a string
 
-**p)** `(typeof (x+1))===(typeof x)`	
+**p)** `(typeof (x+1))===(typeof x)`
 
-**q)** `(x*1 == x) || ((typeof x) != "number")`
+**q)** `(x*1 == x) || ((typeof x) != "number")` This is true, because the typeof statement doesn;t even matter. x*1=x is true, so the whole statement is true.
 
 **r)** `(x=(typeof (x+(typeof x))))==x`
 
