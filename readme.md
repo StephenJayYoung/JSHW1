@@ -70,7 +70,7 @@ Write an expression for the mean (i.e. average) of x, y, and z. var mean = (x+y+
 **b)**
 Write a series of expressions to adjust each of x, y, and z halfway toward the mean of the three.
 That is, reset the value of each variable to something new based on its previous value.
-
+((x+y+z)/3)/2)
 ---
 
 **3)** (_20%_)
@@ -87,10 +87,10 @@ Write an expression for the rectangle's area.
 Var area =b*r;
 
 **b)**
-Write an expression which is true if the rectangle is taller than it is wide, and false otherwise.
+Write an expression which is true if the rectangle is taller than it is wide, and false otherwise. l+r>b+t
 
 **c)**
-Write an expression for the circumference of the biggest circle which can fit inside the rectangle.  (Hint: you'll need logic similar to that in **b**.)
+Write an expression for the circumference of the biggest circle which can fit inside the rectangle.  (Hint: you'll need logic similar to that in **b**.) var circumference = 2 * 3.14 * b
 
 **d)**
 Write an expression for the area of the smallest circle which completely encloses (i.e. circumscribes) the rectangle.
