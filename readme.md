@@ -16,14 +16,14 @@ If the output depends on the value or type of variable _x_, identify the conditi
 Some of these are tricky!  Don't trust your first instinct.  
 
 
-**a)** `"1" == 1`
-**answer) 'This is true because the operands are equal (they do not need to be of the same type)'
+**a) `"1" == 1`
+**a) 'This is true because the operands are equal (they do not need to be of the same type)'
 
-**b)** `"1" === 1`
-**answer) 'This is false, because although the operands are equal to one another, they are not the same type'
+**b) `"1" === 1`
+**b) 'This is false, because although the operands are equal to one another, they are not the same type'
 
-**c)** `x == 'x'`
-**answer)'This is true, because the operands are equal to one another'
+**c) `x == 'x'`
+**c)'This is true, because the operands are equal to one another'
 
 **d)** `x == (x+'')`
 **answer) This is true, because x + the string with no value is equal to x'
