@@ -65,7 +65,7 @@ _All of the following can be solved with ordinary expressions and global variabl
 Assume variables x, y, and z are numbers.
 
 **a)**
-Write an expression for the mean (i.e. average) of x, y, and z.
+Write an expression for the mean (i.e. average) of x, y, and z. var mean = (x+y+z)/3;
 
 **b)**
 Write a series of expressions to adjust each of x, y, and z halfway toward the mean of the three.
@@ -84,6 +84,7 @@ Suppose you're encoding geometric shapes in a Cartesian (2D) coordinate system, 
 
 **a)**
 Write an expression for the rectangle's area.
+Var area =b*r;
 
 **b)**
 Write an expression which is true if the rectangle is taller than it is wide, and false otherwise.
