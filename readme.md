@@ -21,35 +21,30 @@ This is true because the operands are equal (they do not need to be of the same 
 
 **b) `"1" === 1` This is false, because although the operands are equal to one another, they are not the same type
 
-**c) `x == 'x'This is true, because the operands are equal to one another
+**c) `x == 'x' This is true, because the operands are equal to one another
 
-**d)** `x == (x+'')`
-**answer) This is true, because x + the string with no value is equal to x'
+**d)** `x == (x+'') This is true, because x + the string with no value is equal to x
 
-**e)** `'' == ' '`
-**answer)'This is false, because the second string has a space in it, making the two unequal to one another'
+**e)** `'' == ' '` This is false, because the second string has a space in it, making the two unequal to one another
 
 **f)** `x = true`
 
 **g)** `var x; x == 'undefined'`
 
-**h)** `'9'<'10'`
-**answer)'false, because, even thought they are the same types, they are not equal to one another'
+**h)** `'9'<'10'` false, because, even thought they are the same types, they are not equal to one another
 
-**i)** `typeof x + 1 === "number"`
-**answer)'This is false, because the x could represent anything, and thereby make it so that the typeof is nan. It would be true if we put the x+1 in parenthesis'
+**i)** `typeof x + 1 === "number"`This is false, because the x could represent anything, and thereby make it so that the typeof is nan. It would be true if we put the x+1 in parenthesis
 
 **j)** `typeof x % 2 === "number"`
-**answer) 'NAN. this would be "number" if the x%2 was placed within parenthesis'
+NAN. this would be "number" if the x%2 was placed within parenthesis
 
-**k)** `typeof (x % 2) === "number"`
-**answer) 'true. This is because x%2 will deeply equal a number'
+**k)** `typeof (x % 2) === "number"` True. This is because x%2 will deeply equal a number
 
 **l)** `x++ == ++x`
-**answer) 'This is false, because if the operator appears before the variable, the value is modified before the expression is evaluated. If the operator appears after the variable, the value is modified after the expression is evaluated'
+This is false, because if the operator appears before the variable, the value is modified before the expression is evaluated. If the operator appears after the variable, the value is modified after the expression is evaluated
 
 **m)** `++x == x++`
-**answer)'This is true, because if the operator appears before the variable, the value is modified before the expression is evaluated. If the operator appears after the variable, the value is modified after the expression is evaluated'
+This is true, because if the operator appears before the variable, the value is modified before the expression is evaluated. If the operator appears after the variable, the value is modified after the expression is evaluated
 
 **n)** `"1"+x == 1+x`
 
