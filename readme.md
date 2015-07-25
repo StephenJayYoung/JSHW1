@@ -17,42 +17,41 @@ Some of these are tricky!  Don't trust your first instinct.
 
 
 **a) `"1" == 1`
-This is true because the operands are equal (they do not need to be of the same type)
 
-**b) `"1" === 1` This is false, because although the operands are equal to one another, they are not the same type
 
-**c) `x == 'x' This is true, because the operands are equal to one another
+**b) `"1" === 1` 
 
-**d)** `x == (x+'') This is true, because x + the string with no value is equal to x
+**c) `x == 'x' 
+**d)** `x == (x+'') 
 
-**e)** `'' == ' '` This is false, because the second string has a space in it, making the two unequal to one another
+**e)** `'' == ' '` 
 
 **f)** `x = true`
 
 **g)** `var x; x == 'undefined'`
 
-**h)** `'9'<'10'` false, because, even thought they are the same types, they are not equal to one another
+**h)** `'9'<'10'` 
 
-**i)** `typeof x + 1 === "number"`This is false, because the x could represent anything, and thereby make it so that the typeof is nan. It would be true if we put the x+1 in parenthesis
+**i)** `typeof x + 1 === "number"`
 
 **j)** `typeof x % 2 === "number"`
-NAN. this would be "number" if the x%2 was placed within parenthesis
 
-**k)** `typeof (x % 2) === "number"` True. This is because x%2 will deeply equal a number
+
+**k)** `typeof (x % 2) === "number"` 
 
 **l)** `x++ == ++x`
-This is false, because if the operator appears before the variable, the value is modified before the expression is evaluated. If the operator appears after the variable, the value is modified after the expression is evaluated
+
 
 **m)** `++x == x++`
-This is true, because if the operator appears before the variable, the value is modified before the expression is evaluated. If the operator appears after the variable, the value is modified after the expression is evaluated
 
-**n)** `"1"+x == 1+x` This is false, because the 1 is represented by a string
 
-**o)** `"0"+1 == 1` This is false, because the 0 is represented by a string
+**n)** `"1"+x == 1+x` 
+
+**o)** `"0"+1 == 1` 
 
 **p)** `(typeof (x+1))===(typeof x)`
 
-**q)** `(x*1 == x) || ((typeof x) != "number")` This is true, because the typeof statement doesn;t even matter. x*1=x is true, so the whole statement is true.
+**q)** `(x*1 == x) || ((typeof x) != "number")` 
 
 **r)** `(x=(typeof (x+(typeof x))))==x`
 
@@ -65,12 +64,12 @@ _All of the following can be solved with ordinary expressions and global variabl
 Assume variables x, y, and z are numbers.
 
 **a)**
-Write an expression for the mean (i.e. average) of x, y, and z. var mean = (x+y+z)/3;
+Write an expression for the mean (i.e. average) of x, y, and z. var mean = 
 
 **b)**
 Write a series of expressions to adjust each of x, y, and z halfway toward the mean of the three.
 That is, reset the value of each variable to something new based on its previous value.
-((x+y+z)/3)/2)
+
 ---
 
 **3)** (_20%_)
@@ -84,13 +83,13 @@ Suppose you're encoding geometric shapes in a Cartesian (2D) coordinate system, 
 
 **a)**
 Write an expression for the rectangle's area.
-Var area =b*r;
+
 
 **b)**
-Write an expression which is true if the rectangle is taller than it is wide, and false otherwise. l+r>b+t
+Write an expression which is true if the rectangle is taller than it is wide, and false otherwise. 
 
 **c)**
-Write an expression for the circumference of the biggest circle which can fit inside the rectangle.  (Hint: you'll need logic similar to that in **b**.) var circumference = 2 * 3.14 * b
+Write an expression for the circumference of the biggest circle which can fit inside the rectangle.  (Hint: you'll need logic similar to that in **b**.) 
 
 **d)**
 Write an expression for the area of the smallest circle which completely encloses (i.e. circumscribes) the rectangle.
